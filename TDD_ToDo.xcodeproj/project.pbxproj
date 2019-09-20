@@ -12,7 +12,8 @@
 		4B239B78233506E9003F22DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B239B76233506E9003F22DB /* Main.storyboard */; };
 		4B239B7A233506EA003F22DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B239B79233506EA003F22DB /* Assets.xcassets */; };
 		4B239B7D233506EA003F22DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B239B7B233506EA003F22DB /* LaunchScreen.storyboard */; };
-		4B239B88233506EA003F22DB /* TDD_ToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B239B87233506EA003F22DB /* TDD_ToDoTests.swift */; };
+		4B239B9323351500003F22DB /* ToDoItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B239B9223351500003F22DB /* ToDoItemTests.swift */; };
+		4B239B95233515E4003F22DB /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B239B94233515E4003F22DB /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +35,9 @@
 		4B239B7C233506EA003F22DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B239B7E233506EA003F22DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B239B83233506EA003F22DB /* TDD_ToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDD_ToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B239B87233506EA003F22DB /* TDD_ToDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDD_ToDoTests.swift; sourceTree = "<group>"; };
 		4B239B89233506EA003F22DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B239B9223351500003F22DB /* ToDoItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemTests.swift; sourceTree = "<group>"; };
+		4B239B94233515E4003F22DB /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				4B239B79233506EA003F22DB /* Assets.xcassets */,
 				4B239B7B233506EA003F22DB /* LaunchScreen.storyboard */,
 				4B239B7E233506EA003F22DB /* Info.plist */,
+				4B239B94233515E4003F22DB /* ToDoItem.swift */,
 			);
 			path = TDD_ToDo;
 			sourceTree = "<group>";
@@ -90,7 +93,7 @@
 		4B239B86233506EA003F22DB /* TDD_ToDoTests */ = {
 			isa = PBXGroup;
 			children = (
-				4B239B87233506EA003F22DB /* TDD_ToDoTests.swift */,
+				4B239B9223351500003F22DB /* ToDoItemTests.swift */,
 				4B239B89233506EA003F22DB /* Info.plist */,
 			);
 			path = TDD_ToDoTests;
@@ -199,6 +202,7 @@
 			files = (
 				4B239B75233506E9003F22DB /* ViewController.swift in Sources */,
 				4B239B73233506E9003F22DB /* AppDelegate.swift in Sources */,
+				4B239B95233515E4003F22DB /* ToDoItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B239B88233506EA003F22DB /* TDD_ToDoTests.swift in Sources */,
+				4B239B9323351500003F22DB /* ToDoItemTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
